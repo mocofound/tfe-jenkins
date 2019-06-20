@@ -23,7 +23,7 @@ pipeline {
                 '''
             }
         }
-        stage('TFE Workstation list ') {
+        stage('List TFE Workspaces via API') {
             steps {
                 sh '''
                   curl \
